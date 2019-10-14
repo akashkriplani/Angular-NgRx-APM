@@ -2,8 +2,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { SharedModule } from '../shared/shared.module';
-import { StoreModule } from '@ngrx/store';
+
 import { LoginComponent } from './login.component';
+
+/* NgRx */
+import { StoreModule } from '@ngrx/store';
 import { reducer } from './state/user.reducer';
 
 const userRoutes: Routes = [
